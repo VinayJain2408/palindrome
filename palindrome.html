@@ -17,8 +17,8 @@
         let button = document.querySelector("button")
         let para = document.querySelector("p")
         button.onclick = ()=>{
-            // let seedha = inp.value.toLowerCase()
-            // let ulta = seedha.split("").reverse().join('')
+            let seedha = inp.value.toLowerCase()
+            let ulta = seedha.split("").reverse().join('')
             if(seedha === ulta){
                 para.innerHTML = "Word is Palindrome"
             } 
@@ -26,6 +26,6 @@
                 para.innerHTML = "Word is Not Palindrome"
             }
         }
-    </script>
+    </script>   
 </body>
 </html>
